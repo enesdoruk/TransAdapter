@@ -1,7 +1,14 @@
 # TransAdapter
 TransAdapter: Swin Transformer for Feature-Centric Unsupervised Domain Adaptation
 
-![](sources/)
+**Authors:** Abdullah Enes Doruk, Hasan F. Ates, and Erhan Oztop
+
+
+
+<figure style="text-align: center;">
+  <img src="sources/arch.png" alt="Alt text" style="width:100%">
+  <figcaption>Figure 1. TransAdapter architecture Here</figcaption>
+</figure>
 
 
 ## Abstract
