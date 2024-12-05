@@ -79,13 +79,6 @@ python train_transadapter.py --train_batch_size 64 --dataset office \
         --pseudo_lab True 
 ```
 
-## Benchmark Results
-Office-31 Dataset Results
-<p align="center">
-<img src="figures/res.png" width=90% height=70% 
-class="center">
-</p>
-
 ## Acknowledgement
 - We thank the authors of [TVT](https://github.com/uta-smile/TVT/tree/main) and [Swin-Transformer](https://github.com/microsoft/Swin-Transformer/tree/main) and  their open-source codes.
 
