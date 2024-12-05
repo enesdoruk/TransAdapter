@@ -5,10 +5,10 @@ Official PyTorch implementation of [**TransAdapter: Vision Transformer for Featu
 [![Star on GitHub](https://img.shields.io/github/stars/enesdoruk/TransAdapter.svg?style=social)](https://github.com/enesdoruk/TransAdapter)
 
 
-**Authors:** [Abdullah Enes Doruk](www.linkedin.com/in/enesdrk) and [Hasan F. Ates](https://www.linkedin.com/in/hasan-f-ates-9a5b6812/)
+**Authors:** [Abdullah Enes Doruk](www.linkedin.com/in/enesdrk), [Erhan Oztop](https://www.linkedin.com/in/erhan-oztop-804a27152/), and [Hasan F. Ates](https://www.linkedin.com/in/hasan-f-ates-9a5b6812/)
 
 
-Our feature-centric unsupervised domain adaptive Swin transformer.
+Our Vision Transformer for Feature-Centric Unsupervised Domain Adaptation.
 
 <p align="center">
 <img src="figures/arch.png" width=90% height=70% 
@@ -16,7 +16,7 @@ class="center">
 </p>
 
 ## Abstract
-In this work, we propose a novel UDA approach based on the Swin Transformer, introducing three key modules to improve domain adaptation. First, we develop a Graph Domain Discriminator that plays a crucial role in domain alignment by capturing pixel-wise correlations through a graph convolutional layer, operating on both shallow and deep features. This module also calculates entropy for the query and key attention outputs to better distinguish between the source and target domains. In particular, our model does not include a task-specific domain alignment module, making it more versatile for various applications. Second, we present an Adaptive Double Attention module that simultaneously processes windows and shifted windows attention to increase long-range dependency features. An attention reweighting mechanism is employed to dynamically adjust the contributions of these attentions, thereby improving feature alignment between domains. Finally, we introduce Cross-Feature Transform, where random Swin Transformer blocks are selectively transformed using our proposed transform module, enhancing the model’s ability to generalize across domains by transferring the source style to the target. Extensive experiments demonstrate that our method achieves state-of-the-art performance on several challenging UDA benchmarks, confirming the effectiveness of our approach.
+Unsupervised Domain Adaptation (UDA) aims to utilize labeled data from a source domain to solve tasks in an unlabeled target domain, often hindered by significant domain gaps. Traditional CNN-based methods struggle to fully capture complex domain relationships, motivating the shift to vision transformers like the Swin Transformer, which excel in modeling both local and global dependencies. In this work, we propose a novel UDA approach leveraging the Swin Transformer with three key modules. A Graph Domain Discriminator enhances domain alignment by capturing inter-pixel correlations through graph convolutions and entropy-based attention differentiation. An Adaptive Double Attention module combines Windows and Shifted Windows attention with dynamic reweighting to align long-range and local features effectively. Finally, a Cross-Feature Transform modifies Swin Transformer blocks to improve generalization across domains. Extensive benchmarks confirm the state-of-the-art performance of our versatile method, which requires no task-specific alignment modules, establishing its adaptability to diverse applications.
 
 ## Installation (Python 3.8.19)
 
