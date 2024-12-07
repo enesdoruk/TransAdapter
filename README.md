@@ -83,3 +83,11 @@ python train_transadapter.py --train_batch_size 64 --dataset office \
 - We thank the authors of [TVT](https://github.com/uta-smile/TVT/tree/main) and [Swin-Transformer](https://github.com/microsoft/Swin-Transformer/tree/main) and  their open-source codes.
 
 ## Citation
+```
+@article{doruk2024transadapter,
+  title={TransAdapter: Vision Transformer for Feature-Centric Unsupervised Domain Adaptation},
+  author={Doruk, A and Oztop, Erhan and Ates, Hasan F},
+  journal={arXiv preprint arXiv:2412.04073},
+  year={2024}
+}
+```
