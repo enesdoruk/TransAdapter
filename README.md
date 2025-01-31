@@ -10,6 +10,10 @@ Official PyTorch implementation of [**TransAdapter: Vision Transformer for Featu
 **Authors:** [Abdullah Enes Doruk](www.linkedin.com/in/enesdrk), [Erhan Oztop](https://www.linkedin.com/in/erhan-oztop-804a27152/), and [Hasan F. Ates](https://www.linkedin.com/in/hasan-f-ates-9a5b6812/)
 
 
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/transadapter-vision-transformer-for-feature/unsupervised-domain-adaptation-on-office-home)](https://paperswithcode.com/sota/unsupervised-domain-adaptation-on-office-home?p=transadapter-vision-transformer-for-feature)
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/transadapter-vision-transformer-for-feature/unsupervised-domain-adaptation-on-visda2017)](https://paperswithcode.com/sota/unsupervised-domain-adaptation-on-visda2017?p=transadapter-vision-transformer-for-feature)
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/transadapter-vision-transformer-for-feature/unsupervised-domain-adaptation-on-domainnet-1)](https://paperswithcode.com/sota/unsupervised-domain-adaptation-on-domainnet-1?p=transadapter-vision-transformer-for-feature)
+
 Our Vision Transformer for Feature-Centric Unsupervised Domain Adaptation.
 
 <p align="center">
